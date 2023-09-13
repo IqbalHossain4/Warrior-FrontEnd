@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='overflow-x-hidden'>
             <footer className="footer p-10 bg-[#060911] text-white">
                 <nav>
                     <header className="footer-title">Services</header>
