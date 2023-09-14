@@ -1,6 +1,6 @@
 [
     {
-        "_id":	"1",
+        "_id":	1,
         "title":	"Code Warriors Challenge",
         "description":	"Unleash your coding prowess!",
         "banner":	"https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -19,7 +19,7 @@
     },
 
     {
-        "_id": "2",
+        "_id": 2,
         "title": "Innovate-a-thon",
         "description": "Innovate and win exciting prizes!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -36,7 +36,7 @@
     },
 
     {
-        "_id": "3",
+        "_id": 3,
         "title": "Tech Wizards Challenge 2025",
         "description": "Prove your wizardry in tech!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -53,7 +53,7 @@
     },
 
     {
-        "_id": "4",
+        "_id": 4,
         "title": "TechHacks 2024",
         "description": "Where innovation meets technology!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -70,7 +70,7 @@
     },
 
     {
-        "_id": "5",
+        "_id": 5,
         "title": "CodeFest 2023",
         "description": "The ultimate coding showdown!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -87,7 +87,7 @@
     },
 
     {
-        "_id": "6",
+        "_id": 6,
         "title": "HackathonX",
         "description": "Pushing the boundaries of innovation!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -104,7 +104,7 @@
     },
 
     {
-        "_id": "7",
+        "_id": 7,
         "title": "Innovation Quest 2025",
         "description": "Embark on a quest for innovation!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -121,7 +121,7 @@
     },
 
     {
-        "_id": "8",
+        "_id": 8,
         "title": "Hack the Future",
         "description": "Innovate and shape the future!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -138,7 +138,7 @@
     },
 
     {
-        "_id": "9",
+        "_id": 9,
         "title": "HackathonX 2025",
         "description": "Pushing the boundaries of innovation in the new year!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -155,7 +155,7 @@
     },
 
     {
-        "_id": "10",
+        "_id": 10,
         "title": "CodeFusion 2024",
         "description": "Fusing code and creativity!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -173,7 +173,7 @@
 
 
     {
-        "_id": "11",
+        "_id": 11,
         "title": "CodeFusion 2025",
         "description": "Fusing code and creativity in the new year!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -190,7 +190,7 @@
     },
 
     {
-        "_id": "12",
+        "_id": 12,
         "title": "CodeSprint Challenge",
         "description": "Sprint to the coding finish line!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -207,7 +207,7 @@
     },
 
     {
-        "_id": "13",
+        "_id": 13,
         "title": "Tech Wizards Challenge",
         "description": "Calling all tech wizards to compete!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -224,7 +224,7 @@
     },
 
     {
-        "_id": "14",
+        "_id": 14,
         "title": "CodeSprint Challenge 2025",
         "description": "Sprint to victory in the new year!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -241,7 +241,7 @@
     },
 
     {
-        "_id": "15",
+        "_id": 15,
         "title": "HackathonX 2023",
         "description": "Join us for a 24-hour coding challenge!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
@@ -258,7 +258,7 @@
     },
 
     {
-        "_id": "16",
+        "_id": 16,
         "title": "Innovation Challenge 2024",
         "description": "Innovate, create, and win big!",
         "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
