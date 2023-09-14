@@ -14,9 +14,10 @@ const Navbar = () => {
     const navOptions = <>
 
         <Link><li><a className='text-xl hover:text-white'>Home</a></li></Link>
-        <Link><li><a className='text-xl hover:text-white'>Item 1</a></li></Link>
-        <Link><li><a className='text-xl hover:text-white'>Item 1</a></li></Link>
-        <Link><li><a className='text-xl hover:text-white'>Login</a></li></Link> 
+        <Link><li><a className='text-xl hover:text-white'>Hakatons</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Projects</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Exercise</a></li></Link> 
+        <Link><li><a className='text-xl hover:text-white'>About Us</a></li></Link> 
     </>
 
 axios.get("https://warrior-beta.vercel.app/user").then(res => {
@@ -35,7 +36,7 @@ axios.get("https://warrior-beta.vercel.app/user").then(res => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a className="btn btn-ghost normal-case text-xl">Hakatons</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

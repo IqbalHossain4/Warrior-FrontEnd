@@ -3,8 +3,13 @@ import {
   } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
+<<<<<<< HEAD
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
+=======
+import cartProductsLoader from "../Pages/cartProductsLoader";
+import ShowHakaton from "../Pages/ShowHakaton/ShowHakaton";
+>>>>>>> 7e09f4805a23eda164acc3e74fba669fe4055a30
 
 
   export const router = createBrowserRouter([
@@ -17,6 +22,7 @@ import SignUp from "../Pages/SignUp/SignUp";
             element: <Home></Home>
         },
         {
+<<<<<<< HEAD
             path: "/login/participant",
             element: <Login/>
         },
@@ -32,6 +38,13 @@ import SignUp from "../Pages/SignUp/SignUp";
             path: "/signUp/mentor",
             element: <SignUp/>
         },
+=======
+          path: '/hakaton/:_id', // Updated path with ':' to define a parameter
+          element: <ShowHakaton />,
+          loader: ({ params }) => cartProductsLoader(params._id), // Use params._id to access the parameter
+        }
+
+>>>>>>> 7e09f4805a23eda164acc3e74fba669fe4055a30
       ]
     },
   ]);
