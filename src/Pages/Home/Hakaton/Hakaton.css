@@ -1,9 +1,37 @@
-.bg-color {
-    background: rgb(45,19,53);
-    background: radial-gradient(circle, rgba(45,19,53,1) 0%, rgba(0,6,26,1) 71%);
-    
-    /* button */
-    /* background: rgb(239,13,121);
-    background: linear-gradient(260deg, rgba(239,13,121,1) 0%, rgba(174,8,140,1) 71%); */
-  }
-  
+/* Sidebar.css */
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  color: #fff;
+}
+
+.buttons {
+  display: none;
+}
+
+.sidebar:hover .buttons {
+  display: block;
+}
+
+.sidebar-button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: left;
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #555; /* Change the hover color as desired */
+}

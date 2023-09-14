@@ -8,21 +8,21 @@ import img from '../../../assets/computer-screens-desk-empty-data-room-computers
 
 const Banner = () => {
 
-    const typedRef = useRef(null);;
+    // const typedRef = useRef(null);;
 
-    useEffect(() => {
-        const options = {
-            strings: ['<i>Photos Of Beautiful Place.</i> ', 'About the Most Beautiful Place, You Visitted .', 'Your Bad Or Good Experience', 'Where you stay', 'About the best food of these place', 'Encourage People to visit There'],
-            typeSpeed: 50,
-        };
+    // useEffect(() => {
+    //     const options = {
+    //         strings: ['<i>events.</i> ', 'meetups', 'conferences'],
+    //         typeSpeed: 50,
+    //     };
 
 
-        const typed = new Typed(typedRef.current, options);
+    //     const typed = new Typed(typedRef.current, options);
 
-        return () => {
-            typed.destroy();
-        };
-    }, []);
+    //     return () => {
+    //         typed.destroy();
+    //     };
+    // }, []);
 
     return (
         <div>
@@ -38,9 +38,13 @@ const Banner = () => {
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
 
-                                <h1 className="mb-5 text-3xl font-bold">Welcome to our Problemsolving Website</h1>
+                                <h1 className="mb-5 text-4xl text-yellow-600" style={{fontFamily: 'cursive'}}>Welcome to our Problemsolving Website</h1>
 
-                                <span style={{ fontFamily: 'Quicksand' }} className='md:text-xl text-white font-bold text-xl' ref={typedRef}></span>  <br /> <br />
+                                <h1 className='text-5xl font-bold'>events, meetups & conferences</h1>
+
+                                {/* <span style={{ fontFamily: 'Quicksand' }} className='md:text-xl text-white font-bold text-2xl' ref={typedRef}></span>  <br /> <br /> */}
+
+                                <p className='text-xl my-2 text-gray-400'>World's most influential media, entertainment & technology show inspirational speakers including game changing ideas.</p>
 
 
                             </div>
