@@ -11,6 +11,7 @@ const Navbar = () => {
         <Link><li><a className='text-xl hover:text-white'>Projects</a></li></Link>
         <Link><li><a className='text-xl hover:text-white'>Exercise</a></li></Link> 
         <Link><li><a className='text-xl hover:text-white'>About Us</a></li></Link> 
+        <Link to="dashboard/userhome"><li><a className='text-xl hover:text-white'>UserDashboard</a></li></Link> 
     </>
 
     return (
