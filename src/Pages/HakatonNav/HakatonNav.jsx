@@ -20,15 +20,18 @@ const HakatonNav = () => {
           <HakatonNavDetail key={hakaton._id} hakaton={hakaton} />
         ))}
 
+      </div>
 
-        <Pagination 
-        totalPosts = {hakatons.length}
+
+
+      <Pagination
+        totalPosts={hakatons.length}
         postsPerPage={postsPerPage}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
-         
-         ></Pagination>
-      </div>
+
+      ></Pagination>
+
     </div>
   );
 }

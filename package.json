@@ -10,19 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
+
     "@tanstack/react-query": "^4.35.3",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.5.0",
     "firebase": "^10.3.1",
-=======
+
     "aos": "^3.0.0-beta.6",
->>>>>>> 6cd301607b809c6d50a171374f6fe1565761bfeb
+
     "localforage": "^1.10.0",
     "lottie-react": "^2.4.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
-<<<<<<< HEAD
+
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.46.1",
     "react-icons": "^4.11.0",
@@ -32,8 +32,8 @@
     "sort-by": "^1.2.0",
     "sweetalert2": "^11.7.28",
     "swiper": "^10.2.0",
-    "typed-js": "^0.2.3"
-=======
+    "typed-js": "^0.2.3",
+
     "react-icons": "^4.11.0",
     "react-parallax": "^3.5.1",
     "react-router-dom": "^6.15.0",
@@ -41,7 +41,7 @@
     "recharts": "^2.8.0",
     "sort-by": "^1.2.0",
     "typed.js": "^2.0.16"
->>>>>>> 6cd301607b809c6d50a171374f6fe1565761bfeb
+
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

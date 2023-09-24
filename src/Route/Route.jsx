@@ -3,19 +3,18 @@ import {
   } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
-<<<<<<< HEAD
 import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import cartProductsLoader from "../Pages/cartProductsLoader";
 import ShowHakaton from "../Pages/ShowHakaton/ShowHakaton";
 import HakatonNav from "../Pages/HakatonNav/HakatonNav";
-=======
+
 import cartProductsLoader from "../Pages/cartProductsLoader";
 import ShowHakaton from "../Pages/ShowHakaton/ShowHakaton";
 import UserHome from "../Pages/DashBoard/UserHome";
 import Dashboard from "../Layout/Dashboard";
 // import UserDashboard from "../Pages/DashBoard/UserDashboard/UserDashboard";
->>>>>>> 6cd301607b809c6d50a171374f6fe1565761bfeb
+
 
 
   export const router = createBrowserRouter([
@@ -27,7 +26,7 @@ import Dashboard from "../Layout/Dashboard";
             path: "/",
             element: <Home></Home>
         },
-<<<<<<< HEAD
+
         {
             path: "/login/participant",
             element: <Login/>
@@ -53,14 +52,14 @@ import Dashboard from "../Layout/Dashboard";
 
 		{
       path:'/hakaton/:_id', 
-=======
+
         // {
         //     path: "/user",
         //     element: <UserDashboard></UserDashboard>
-        // },
+        },
         {
           path: '/hakaton/:_id', // Updated path with ':' to define a parameter
->>>>>>> 6cd301607b809c6d50a171374f6fe1565761bfeb
+
           element: <ShowHakaton />,
           loader: ({ params }) => cartProductsLoader(params._id), // Use params._id to access the parameter
         }
