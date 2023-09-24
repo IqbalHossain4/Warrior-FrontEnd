@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import useHakaton from '../../../hooks/useHakaton';
 import AllHakaton from '../../AllHakaton/AllHakaton';
+// import AllHakaton from '../../AllHakaton/akaton';
 
 const Hakaton = () => {
 

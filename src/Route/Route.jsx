@@ -7,6 +7,7 @@ import Login from "../Pages/Login/Login";
 import SignUp from "../Pages/SignUp/SignUp";
 import cartProductsLoader from "../Pages/cartProductsLoader";
 import ShowHakaton from "../Pages/ShowHakaton/ShowHakaton";
+import HakatonNav from "../Pages/HakatonNav/HakatonNav";
 
 
   export const router = createBrowserRouter([
@@ -34,7 +35,15 @@ import ShowHakaton from "../Pages/ShowHakaton/ShowHakaton";
             path: "/signUp/mentor",
             element: <SignUp/>
         },
-		{path:'/hakaton/:_id', 
+        {
+            path: "/hakaton",
+            element: <HakatonNav></HakatonNav>
+        },
+
+        
+
+		{
+      path:'/hakaton/:_id', 
           element: <ShowHakaton />,
           loader: ({ params }) => cartProductsLoader(params._id), // Use params._id to access the parameter
         }

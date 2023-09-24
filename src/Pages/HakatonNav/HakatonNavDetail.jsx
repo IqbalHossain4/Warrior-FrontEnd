@@ -1,25 +1,24 @@
-import React, { useEffect } from "react";
-import "./AllHakaton.css";
+import React, { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
-import { FaUserAlt } from "react-icons/fa";
+import { FaUserAlt } from 'react-icons/fa';
 
-const AllHakaton = ({ place }) => {
-  const { title, banner, description, start_time, end_time, _id } = place;
+const HakatonNavDetail = ({hakaton}) => {
 
-  useEffect(() => {
-    Aos.init({
-      offset: 200,
-      easing: "ease-in-sine",
-      duration: 600,
-    });
-  }, []);
+    const { title, banner, description, start_time, end_time, _id } = hakaton;
 
-  const endTime = end_time.split("T")[1];
-  
-  return (
-    <div
+    useEffect(() => {
+        Aos.init({
+          offset: 200,
+          easing: "ease-in-sine",
+          duration: 600,
+        });
+      }, []);
+    
+      const endTime = end_time.split("T")[1];
+
+    return (
+        <div
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-duration="2000"
@@ -63,13 +62,13 @@ const AllHakaton = ({ place }) => {
             </span>
           </p>
 
-          <Link to={`/hakaton/${_id}`}>
+          {/* <Link to={`/hakaton/${_id}`}>
             <button className="btn btn-warning text-white">Start Now</button>
-          </Link>
+          </Link> */}
         </center>
       </div>
     </div>
-  );
+    );
 };
 
-export default AllHakaton;
+export default HakatonNavDetail;
