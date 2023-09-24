@@ -1,5 +1,9 @@
 import { Parallax } from 'react-parallax';
+<<<<<<< HEAD
 
+=======
+import Typed from 'typed.js';
+>>>>>>> 6cd301607b809c6d50a171374f6fe1565761bfeb
 import React, { useEffect, useRef } from 'react';
 
 

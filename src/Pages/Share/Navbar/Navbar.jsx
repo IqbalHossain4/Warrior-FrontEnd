@@ -13,6 +13,7 @@ const Navbar = () => {
 
     const navOptions = <>
 
+<<<<<<< HEAD
         <Link to="/"><li><a className='text-xl hover:text-white'>Home</a></li></Link>
 
         <Link to="hakaton"><li><a className='text-xl hover:text-white'>Hakatons</a></li></Link>
@@ -20,6 +21,14 @@ const Navbar = () => {
         <Link><li><a className='text-xl hover:text-white'>Projects</a></li></Link>
         <Link><li><a className='text-xl hover:text-white'>Exercise</a></li></Link> 
         <Link><li><a className='text-xl hover:text-white'>About Us</a></li></Link> 
+=======
+        <Link><li><a className='text-xl hover:text-white'>Home</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Hakatons</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Projects</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Exercise</a></li></Link> 
+        <Link><li><a className='text-xl hover:text-white'>About Us</a></li></Link> 
+        <Link to="dashboard/userhome"><li><a className='text-xl hover:text-white'>UserDashboard</a></li></Link> 
+>>>>>>> 6cd301607b809c6d50a171374f6fe1565761bfeb
     </>
 
 axios.get("https://warrior-beta.vercel.app/user").then(res => {
