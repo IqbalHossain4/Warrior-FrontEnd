@@ -13,6 +13,7 @@ import HakatonNav from "../Pages/HakatonNav/HakatonNav";
 // import ShowHakaton from "../Pages/ShowHakaton/ShowHakaton";
 import UserHome from "../Pages/DashBoard/UserHome";
 import Dashboard from "../Layout/Dashboard";
+import Project from "../Pages/Project/Project";
 // import UserDashboard from "../Pages/DashBoard/UserDashboard/UserDashboard";
 
 
@@ -46,6 +47,10 @@ import Dashboard from "../Layout/Dashboard";
         {
             path: "/hakaton",
             element: <HakatonNav></HakatonNav>
+        },
+        {
+            path: "/project",
+            element: <Project></Project>
         },
 
         

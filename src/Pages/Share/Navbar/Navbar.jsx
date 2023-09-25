@@ -13,9 +13,12 @@ const Navbar = () => {
 
     const navOptions = <>
 
-        <Link><li><a className='text-xl hover:text-white'>Home</a></li></Link>
+        <Link to="/"><li><a className='text-xl hover:text-white'>Home</a></li></Link>
+
         <Link to="/hakaton"><li><a className='text-xl hover:text-white'>Hakatons</a></li></Link>
-        <Link><li><a className='text-xl hover:text-white'>Projects</a></li></Link>
+
+        <Link to="/project"><li><a className='text-xl hover:text-white'>Projects</a></li></Link>
+
         <Link><li><a className='text-xl hover:text-white'>Exercise</a></li></Link> 
         <Link><li><a className='text-xl hover:text-white'>About Us</a></li></Link> 
         <Link to="dashboard/userhome"><li><a className='text-xl hover:text-white'>UserDashboard</a></li></Link> 
