@@ -1,11 +1,15 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider/AuthProvider';
+<<<<<<< HEAD
 import useCart from '../../../hooks/useCart';
+=======
+>>>>>>> edc1c29af950c9b3e41ed72a868789af9340414f
 import axios from 'axios';
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
+<<<<<<< HEAD
     const [cart] = useCart()
   const total = cart.reduce((sum, item) => parseFloat(item.Price) + sum, 0);
   console.log(cart);
@@ -22,6 +26,16 @@ const Navbar = () => {
         <Link><li><a className='text-xl hover:text-white'>Exercise</a></li></Link> 
         <Link><li><a className='text-xl hover:text-white'>About Us</a></li></Link> 
         <Link to="dashboard/userhome"><li><a className='text-xl hover:text-white'>UserDashboard</a></li></Link> 
+=======
+
+    const navOptions = <>
+
+        <Link><li><a className='text-xl hover:text-white'>Home</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Hakatons</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Projects</a></li></Link>
+        <Link><li><a className='text-xl hover:text-white'>Exercise</a></li></Link> 
+        <Link><li><a className='text-xl hover:text-white'>About Us</a></li></Link> 
+>>>>>>> edc1c29af950c9b3e41ed72a868789af9340414f
     </>
 
 axios.get("https://warrior-beta.vercel.app/user").then(res => {
@@ -51,6 +65,7 @@ axios.get("https://warrior-beta.vercel.app/user").then(res => {
                    
                    
 
+<<<<<<< HEAD
                 <div className="flex md:mx-5 ">
           {user &&   <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -94,6 +109,10 @@ axios.get("https://warrior-beta.vercel.app/user").then(res => {
                 </div>
               </div>
             </div>}
+=======
+                <div className="flex md:mx-5 items-center">
+          {user && <Link to={'/dashboard'}><button className='btn mx-5'>Dashboard</button></Link>}
+>>>>>>> edc1c29af950c9b3e41ed72a868789af9340414f
             {user && (
               <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
