@@ -8,6 +8,9 @@ import ShowHakaton from "../Pages/ShowHakaton/ShowHakaton";
 import DashboardLayout from "../Layout/DashboardLayout";
 import Dashboard from './../Pages/Dashboard/Dashboard/Dashboard';
 import StudentDetails from "../Pages/Dashboard/StudentDetails/StudentDetails";
+import MentorDetails from "../Pages/Dashboard/MentorDetails/MentorDetails";
+import AllHackathon from "../Pages/Dashboard/AllHackathon/AllHackathon";
+import ManageHackathon from "../Pages/Dashboard/ManageHackathon/ManageHackathon";
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +51,18 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard/>,
+      },
+      {
+        path: "/dashboard/allHackathon",
+        element: <AllHackathon/>,
+      },
+      {
+        path: "/dashboard/mentorDetails",
+        element: <MentorDetails/>,
+      },
+      {
+        path: "/dashboard/manageHackathon",
+        element: <ManageHackathon/>,
       },
       {
         path: "/dashboard/studentDetails",

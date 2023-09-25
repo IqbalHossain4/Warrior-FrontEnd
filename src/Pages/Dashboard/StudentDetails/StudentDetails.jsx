@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 
 const StudentDetails = () => {
   const [students, setStudents] = useState([]);
+  console.log(students);
   const [reload, setReload] = useState(false);
   useEffect(() => {
     axios.get("https://warrior-beta.vercel.app/user").then((response) => {
@@ -44,6 +45,8 @@ const StudentDetails = () => {
       {isStudent.length === 0 ? (
         <p className="text-4xl font-bold">Currently no students available</p>
       ) : (
+      <>
+      <h3 className="text-center font-semibold text-4xl my-4">Student Details</h3>
         <div className="overflow-x-auto">
           <table className="table">
             {/* head */}
@@ -75,6 +78,7 @@ const StudentDetails = () => {
             </tbody>
           </table>
         </div>
+        </>
       )}
     </div>
   );
