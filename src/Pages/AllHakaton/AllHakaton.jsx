@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+
+ import React, { useEffect } from 'react';
+=======
 import React, { useEffect } from 'react';
+>>>>>>> edc1c29af950c9b3e41ed72a868789af9340414f
 import './AllHakaton.css';
 
 import Aos from 'aos';
@@ -19,10 +24,17 @@ const AllHakaton = ({ place }) => {
         });
     }, []);
 
+<<<<<<< HEAD
+    
+    const maxDescriptionLength = 20;
+
+  
+=======
     // Define a maximum character limit for the description
     const maxDescriptionLength = 20;
 
     // Truncate the description if it exceeds the maximum length
+>>>>>>> edc1c29af950c9b3e41ed72a868789af9340414f
     const truncatedDescription = description.length > maxDescriptionLength
         ? description.slice(0, maxDescriptionLength) + '...' // Add ellipsis
         : description;
@@ -60,4 +72,8 @@ const AllHakaton = ({ place }) => {
     );
 };
 
+<<<<<<< HEAD
+export default AllHakaton; 
+=======
 export default AllHakaton;
+>>>>>>> edc1c29af950c9b3e41ed72a868789af9340414f
