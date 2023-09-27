@@ -19,9 +19,11 @@ const CategorySlider = () => {
   const [swiperRef, setSwiperRef] = useState(null);
 
   return (
-    <div className="my-12">
-      <Title title={"Category"} subTitle={"Browse by Category"} />
-      <div className="w-8/12 mx-auto mt-12">
+    <div className="py-24">
+      <div className="mb-16">
+        <Title title={"Category"} subTitle={"Browse by Category"} />
+      </div>
+      <div className="w-8/12 mx-auto">
         <Swiper
           onSwiper={setSwiperRef}
           slidesPerView={5}

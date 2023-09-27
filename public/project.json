@@ -1,0 +1,105 @@
+[
+    {
+        "_id": 1,
+
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2crUu4J2JWafAtVXJEVF4_UkEo26wT0fWA&usqp=CAU",
+        "name": "Food Panda",
+
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 2
+    },
+
+    {
+        "_id": 2,
+        "image": "https://img.freepik.com/free-photo/cafe-frankfurt-germany_1268-20912.jpg?w=740&t=st=1695624699~exp=1695625299~hmac=b2421f4a2bbbc165d510ab398f0661cf536acc88e31a2b03612e806447a57d37",
+
+        "name": "Library Management",
+        "description": "For queries relating to the status of your paper pre decision, please contact the Editor or Journal Editorial Office. For queries post acceptance, please contact the Supplier Project Manager. These details can be found in the Editorial Team section.",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 6
+    },
+
+    {
+        "_id": 3,
+        "image": "https://img.freepik.com/premium-photo/close-up-doctor-patient-hands-while-phisician-pointing-into-medical-history-form-clipboard-medicine-health-care-concept_665183-10747.jpg?w=740",
+
+        "name": "Doctor Appointment",
+
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 5
+    },
+
+    {
+        "_id": 4,
+        
+        "image": "https://img.freepik.com/free-photo/planning-traveling-trip-notes-wanderkust_53876-127491.jpg?w=740&t=st=1695625050~exp=1695625650~hmac=af3885471eacb7e2753ed6c72b1900c65f8e9c751509425cd424176208f9e372",
+
+        "name": "Travel Journal",
+
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+
+        "teamMember": 3
+    },
+
+    {
+        "_id": 5,
+        "image": "https://img.freepik.com/free-photo/medium-shot-nurses-wearing-masks_23-2149484058.jpg?w=740&t=st=1695625086~exp=1695625686~hmac=ea396f66eb24956b7e95077cdc156d907a90714013c846fe0b2f07f9d47f8a8f",
+
+        "name": "Hospital Management",
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 2
+    },
+    
+
+    {
+        "_id": 6,
+        "image": "https://img.freepik.com/premium-photo/decorative-cosmetics-white-background-selective-focus_73944-2246.jpg?w=740",
+
+        "name": "Jerins's Pourler",
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 6
+    },
+    {
+        "_id": 7,
+        "image": "https://img.freepik.com/premium-vector/graduation-concept-3d-isometric-infographic-with-people-standing-pile-books-cheering-together_281653-3490.jpg?w=740",
+
+        "name": "Univarsity Project",
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 4
+    },
+    {
+        "_id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR2crUu4J2JWafAtVXJEVF4_UkEo26wT0fWA&usqp=CAU",
+
+        "name": "Novel review",
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 5
+    },
+    {
+        "_id": 9,
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-poetry-illustration_23-2149314745.jpg?w=740&t=st=1695625281~exp=1695625881~hmac=c71a22fd696d8605c5fe947128f0ffbd2268f99ada9a96021d77a77493143be2",
+
+        "name": "Job Haunt",
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 5
+    },
+    {
+        "_id": 10,
+        "image": "https://img.freepik.com/free-vector/pack-speech-bubbles-sketches_23-2147649199.jpg?w=740&t=st=1695625319~exp=1695625919~hmac=00c02bf971ab6a62811049dedd51eac439e2848114e1ecc6fa41e8e029f811a9",
+
+        "name": "Messenger",
+        "description": "Would you like millions of new customers to enjoy your amazing food and groceries? So would we!It's simplewe list your menu and product lists online, help you process orders, pick them up, and deliver them to hungry pandas - in a heartbeat! Interested? Let's start our partnership today!",
+        "technology": "CSS, Tailwind, Daisy UI, React, JavaScript, Node Js, MongoDB",
+        "teamMember": 5
+    }
+]

@@ -1,14 +1,34 @@
 [
   {
-    "_id": 1,
     "title": "Code Warriors Challenge",
-    "description": "Unleash your coding prowess!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-
+    "image": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/the-logosphere-hackathon/images/8bd87a8a41-banner_8.png",
+    "status": "Online",
     "publisher": {
       "name": "Code Warriors Inc.",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
+      "logo": "codewarriors_logo.png"
     },
+    "overview": {
+      "title": "Build Web3 Dynamic NFT Projects On Cardano Blockchain",
+      "description": "Logosphere provides an easy-to-use, flexible, open-source framework generating your application back-end, customized to your business domain from a Javascript model; allowing you to seamlessly deploy in “one-click” and have the power of an on-chain, decentralized, knowledge graph database at your fingertips."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/the-logosphere-hackathon/bdac043ICONS_NFT.png",
+        "title": "Dynamic NFT dApp",
+        "description": "Bring your Web 2 use case into Web 3 by creating a dynamic NFT project.Update the number of listens, favorites, shares, number of appearances on top 100 billboards, and number of (positive/negative) reviews written. Progression of art as it's in progress early sketch first painting  paint overs  draft finalizationCapture reviews, feedback, likes, etc.that increase the value of the ar"
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/the-logosphere-hackathon/d7bbce1ICONS_WALLET.png",
+        "title": "Building Dynamic NFT Wallet",
+        "description": "We have a server-based wallet to show NFTs on-chain and metadata from Fluree. Sign Fluree and Cardano transactions. Display NFTs together with dynamic properties taken from Fluree DB"
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/the-logosphere-hackathon/e370e23ICONS_WEB_3.png",
+        "title": "Web 3 Games Use Cases",
+        "description": "As the progress of a single player/character which can be saved for later. Some games require some level of completeness to unlock, for example locations. Players sometimes download 100% complete profile to see what the location, weapon or character looks like then. As game restore mechanism - some time ago there was situation when someone infected World Of Warcraft in a way where players’ characters upgraded from a long time had been killed in the game with no possibility to restore them. If saves are stored on the blockchain, in similar situation the game could be restored by restoring player's public saves."
+      }
+    ],
     "start_time": "2024-01-20T08:00:00Z",
     "end_time": "2024-01-21T08:00:00Z",
     "first_prize": 2000,
@@ -18,257 +38,375 @@
   },
 
   {
-    "_id": 2,
-    "title": "Innovate-a-thon",
-    "description": "Innovate and win exciting prizes!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
+    "title": "CyientifIQ Innovation League",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/cyientifiq-global-innovation-league-global-hackathon-2023/images/3546c0b820-490x300px.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/cyientifiq-global-innovation-league-global-hackathon-2023/images/e72cb84e20-2700x600px.jpg",
+    "status": "Online",
     "publisher": {
-      "name": "Innovation Hub",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
+      "name": "Cyient.",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/c7/be/c7beab02321152d4998759cefffcfa85.png"
     },
-    "start_time": "2025-01-05T10:00:00Z",
-    "end_time": "2025-01-06T10:00:00Z",
-    "first_prize": 2300,
-    "second_prize": 1150,
-    "third_prize": 575,
-    "category": "Upcoming Hackathon"
-  },
-
-  {
-    "_id": 3,
-    "title": "Tech Wizards Challenge 2025",
-    "description": "Prove your wizardry in tech!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Tech Wizards Inc.",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
+    "overview": {
+      "title": "Welcome to the ultimate innovation challenge of the year, the CyientifIQ Innovation League - Global Hackathon 2023!",
+      "description": "This exhilarating event brings together brilliant minds from various fields to tackle the most pressing issues of our time.With three captivating themes - Designing Digital Enterprises, Building Intelligent Products and Platforms, and Solving Sustainability Challenges—this year's Hackathon promises to be a platform where technology and creativity converge to shape a better future. "
     },
-    "start_time": "2025-12-01T16:00:00Z",
-    "end_time": "2025-12-02T16:00:00Z",
-    "first_prize": 2700,
-    "second_prize": 1350,
-    "third_prize": 675,
-    "category": "Upcoming Hackathon"
-  },
-
-  {
-    "_id": 4,
-    "title": "TechHacks 2024",
-    "description": "Where innovation meets technology!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Tech Innovators Inc.",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2024-03-10T11:00:00Z",
-    "end_time": "2024-03-11T11:00:00Z",
-    "first_prize": 1800,
-    "second_prize": 900,
-    "third_prize": 450,
-    "category": "Upcoming Hackathon"
-  },
-
-  {
-    "_id": 5,
-    "title": "CodeFest 2023",
-    "description": "The ultimate coding showdown!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Code Masters",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2023-11-15T10:00:00Z",
-    "end_time": "2023-11-16T10:00:00Z",
-    "first_prize": 1500,
-    "second_prize": 750,
-    "third_prize": 300,
-    "category": "Upcoming Hackathon"
-  },
-
-  {
-    "_id": 6,
-    "title": "HackathonX",
-    "description": "Pushing the boundaries of innovation!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "X Innovations",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2024-07-18T13:00:00Z",
-    "end_time": "2024-07-19T13:00:00Z",
-    "first_prize": 2500,
-    "second_prize": 1250,
-    "third_prize": 625,
-    "category": "Upcoming Hackathon"
-  },
-
-  {
-    "_id": 7,
-    "title": "Innovation Quest 2025",
-    "description": "Embark on a quest for innovation!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Innovation Hub",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2025-08-20T13:00:00Z",
-    "end_time": "2025-08-21T13:00:00Z",
-    "first_prize": 2800,
-    "second_prize": 1400,
-    "third_prize": 700,
-    "category": "Upcoming Hackathon"
-  },
-
-  {
-    "_id": 8,
-    "title": "Hack the Future",
-    "description": "Innovate and shape the future!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Future Labs",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2023-12-05T12:00:00Z",
-    "end_time": "2023-12-06T12:00:00Z",
-    "first_prize": 1200,
-    "second_prize": 600,
-    "third_prize": 300,
-    "category": "Upcoming Hackathon"
-  },
-
-  {
-    "_id": 9,
-    "title": "HackathonX 2025",
-    "description": "Pushing the boundaries of innovation in the new year!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "X Innovations",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2025-10-12T15:00:00Z",
-    "end_time": "2025-10-13T15:00:00Z",
-    "first_prize": 2600,
-    "second_prize": 1300,
-    "third_prize": 650,
-    "category": "Running Hackathon"
-  },
-
-  {
-    "_id": 10,
-    "title": "CodeFusion 2024",
-    "description": "Fusing code and creativity!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Code Fusion Labs",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2024-04-22T14:00:00Z",
-    "end_time": "2024-04-23T14:00:00Z",
-    "first_prize": 1600,
-    "second_prize": 800,
-    "third_prize": 400,
-    "category": "Running Hackathon"
-  },
-
-  {
-    "_id": 11,
-    "title": "CodeFusion 2025",
-    "description": "Fusing code and creativity in the new year!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Code Fusion Labs",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2025-03-20T12:00:00Z",
-    "end_time": "2025-03-21T12:00:00Z",
-    "first_prize": 2700,
-    "second_prize": 1350,
-    "third_prize": 675,
-    "category": "Running Hackathon"
-  },
-
-  {
-    "_id": 12,
-    "title": "CodeSprint Challenge",
-    "description": "Sprint to the coding finish line!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "CodeSprint Corp.",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2024-09-10T15:00:00Z",
-    "end_time": "2024-09-11T15:00:00Z",
-    "first_prize": 1900,
-    "second_prize": 950,
-    "third_prize": 475,
-    "category": "Running Hackathon"
-  },
-
-  {
-    "_id": 13,
-    "title": "Tech Wizards Challenge",
-    "description": "Calling all tech wizards to compete!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Tech Wizards Inc.",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2024-10-30T16:00:00Z",
-    "end_time": "2024-10-31T16:00:00Z",
-    "first_prize": 2100,
-    "second_prize": 1050,
-    "third_prize": 525,
-    "category": "Running Hackathon"
-  },
-
-  {
-    "_id": 14,
-    "title": "CodeSprint Challenge 2025",
-    "description": "Sprint to victory in the new year!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "CodeSprint Corp.",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2025-06-08T11:00:00Z",
-    "end_time": "2025-06-09T11:00:00Z",
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/8f8142eICONS_Digital_Enterprises.png",
+        "title": "Designing Digital Enterprises",
+        "description": "In the realm of Designing Digital Enterprises, participants will delve into the exciting world of cutting-edge technologies such as artificial intelligence, machine learning, and data analytics to revolutionize businesses and reshape industries. From developing innovative solutions to enhance customer experiences to optimizing operational efficiency, participants will harness the power of digital transformation to unlock the untapped potential of enterprises in today's fast-paced, interconnected world."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/9674686ICONS_Sustainable_Industries__Decarbonization.png",
+        "title": "Building Intelligent Products and Platforms",
+        "description": "Building Intelligent Products and Platforms offer an exciting playground for participants to dive into the Internet of Things (IoT) and autonomous technologies. From designing smart devices and connected infrastructure to creating intelligent algorithms and autonomous systems, participants will revolutionize how we interact with our surroundings. By harnessing the power of connectivity and automation, participants will unlock new possibilities for efficiency, safety, and convenience in our increasingly interconnected world."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/a812deaICONS_Connected_Products__Autonomous_Systems.png",
+        "title": "Solving Sustainability Challenges",
+        "description": "The theme of Solving Sustainability Challenges invites participants to explore groundbreaking ideas that address the pressing challenges of climate change and environmental sustainability. By leveraging renewable energy sources, implementing circular economy models, and fostering eco-friendly practices, participants will devise transformative solutions to reduce carbon footprints, promote sustainable practices across industries, and pave the way for a greener and more resilient world."
+      }
+    ],
+    "start_time": "2028-01-20T08:00:00Z",
+    "end_time": "2028-01-21T08:00:00Z",
     "first_prize": 2400,
-    "second_prize": 1200,
-    "third_prize": 600,
-    "category": "Running Hackathon"
-  },
-
-  {
-    "_id": 15,
-    "title": "HackathonX 2023",
-    "description": "Join us for a 24-hour coding challenge!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Tech Innovators Inc.",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2023-10-01T09:00:00Z",
-    "end_time": "2023-10-02T09:00:00Z",
-    "first_prize": 1000,
-    "second_prize": 500,
-    "third_prize": 250,
-    "category": "Running Hackathon"
-  },
-
-  {
-    "_id": 16,
-    "title": "Innovation Challenge 2024",
-    "description": "Innovate, create, and win big!",
-    "banner": "https://access2sea.eu/wp-content/uploads/2020/06/OH5_Site_Banner_gen.png",
-    "publisher": {
-      "name": "Innovation Hub",
-      "logo": "https://he-s3.s3.amazonaws.com/media/cache/80/86/8086157462851a841a1516f335f0d134.png"
-    },
-    "start_time": "2024-06-05T09:00:00Z",
-    "end_time": "2024-06-06T09:00:00Z",
-    "first_prize": 2200,
     "second_prize": 1100,
-    "third_prize": 550,
+    "third_prize": 800,
+    "category": "Upcoming Hackathon"
+  },
+
+  {
+    "title": "HackerEarth Select",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/hackerearth-select/images/4cbba2f453-listing.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/hackerearth-select/images/7cf0e2f252-HackerEarth_Select_Banner_Image.png",
+    "status": "Online",
+    "publisher": {
+      "name": "HackerEarth Select",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/b9/92/b99296cfcdcc7da72b6a6fb7a11f1eaf.png"
+    },
+    "overview": {
+      "title": "Welcome to the ultimate innovation challenge of the year, the CyientifIQ Innovation League - Global Hackathon 2023!",
+      "description": "This exhilarating event brings together brilliant minds from various fields to tackle the most pressing issues of our time.With three captivating themes - Designing Digital Enterprises, Building Intelligent Products and Platforms, and Solving Sustainability Challenges—this year's Hackathon promises to be a platform where technology and creativity converge to shape a better future. "
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/8f8142eICONS_Digital_Enterprises.png",
+        "title": "Designing Digital Enterprises",
+        "description": "In the realm of Designing Digital Enterprises, participants will delve into the exciting world of cutting-edge technologies such as artificial intelligence, machine learning, and data analytics to revolutionize businesses and reshape industries. From developing innovative solutions to enhance customer experiences to optimizing operational efficiency, participants will harness the power of digital transformation to unlock the untapped potential of enterprises in today's fast-paced, interconnected world."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/9674686ICONS_Sustainable_Industries__Decarbonization.png",
+        "title": "Building Intelligent Products and Platforms",
+        "description": "Building Intelligent Products and Platforms offer an exciting playground for participants to dive into the Internet of Things (IoT) and autonomous technologies. From designing smart devices and connected infrastructure to creating intelligent algorithms and autonomous systems, participants will revolutionize how we interact with our surroundings. By harnessing the power of connectivity and automation, participants will unlock new possibilities for efficiency, safety, and convenience in our increasingly interconnected world."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/a812deaICONS_Connected_Products__Autonomous_Systems.png",
+        "title": "Solving Sustainability Challenges",
+        "description": "The theme of Solving Sustainability Challenges invites participants to explore groundbreaking ideas that address the pressing challenges of climate change and environmental sustainability. By leveraging renewable energy sources, implementing circular economy models, and fostering eco-friendly practices, participants will devise transformative solutions to reduce carbon footprints, promote sustainable practices across industries, and pave the way for a greener and more resilient world."
+      }
+    ],
+    "start_time": "2025-01-20T08:00:00Z",
+    "end_time": "2028-01-21T08:00:00Z",
+    "first_prize": 400,
+    "second_prize": 100,
+    "third_prize": 810,
+    "category": "Upcoming Hackathon"
+  },
+  {
+    "title": "Bitget U-30 Hackathon",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/bitget-blockchain4youth-u-30-hackathon/images/195a78703c-listing_12.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/bitget-blockchain4youth-u-30-hackathon/images/2d9eb7ce41-banner_bitget.jpg",
+    "status": "Online",
+    "publisher": {
+      "name": "Bitget",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/85/b4/85b41f1d95900368ec52e9a97c9d8ea3.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "The Bitget Blockchain4Youth Virtual Hackathon (in partnership with Foresight Ventures) represents an exciting opportunity for under 30 innovators to showcase their skills and creativity around AI and Blockchain."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/bitget-blockchain4youth-u-30-hackathon/fbbf487icons_ai.png",
+        "title": "Trustless infrastructure for AI",
+        "description": "Artificial intelligence (AI) and machine learning (ML) have become increasingly popular in recent years, with many innovative applications across industries. However, the lack of trustless infrastructure for AI has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent.The challenge for this hackathon is to create a trustless infrastructure for AI that ensures secure and private AI applications, using zero-knowledge proofs (zkp) and zk-SNARKs (zero-knowledge succinct non-interactive arguments of knowledge) to create a secure and private AI network."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/bitget-blockchain4youth-u-30-hackathon/040df31icons_AIGC_enchanted_Web3.png",
+        "title": "AI marketplace",
+        "description": "As the use of artificial intelligence (AI) and machine learning (ML) continues to grow in popularity, it has become increasingly important to ensure secure and private AI applications. However, the lack of decentralized computation resources and a trustworthy marketplace for AI algorithms and data exchange has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/a812deaICONS_Connected_Products__Autonomous_Systems.png",
+        "title": "AI and/or Blockchain project (Open ended)",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2025-01-20T08:00:00Z",
+    "end_time": "2025-01-21T08:00:00Z",
+    "first_prize": 4100,
+    "second_prize": 1200,
+    "third_prize": 1010,
+    "category": "Upcoming Hackathon"
+  },
+  {
+    "title": "August Circuits '23",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/august-circuits-23/images/ee6efe4c3d-circuits_Listing_copy.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/august-circuits-23/images/ee96c77e3d-circuits_1350-300_copy.jpg",
+    "status": "Online",
+    "publisher": {
+      "name": "Heackearth",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/62/46/6246b153249f7b947bbf6baa98ca15c3.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "The Bitget Blockchain4Youth Virtual Hackathon (in partnership with Foresight Ventures) represents an exciting opportunity for under 30 innovators to showcase their skills and creativity around AI and Blockchain."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/bitget-blockchain4youth-u-30-hackathon/fbbf487icons_ai.png",
+        "title": "Trustless infrastructure for AI",
+        "description": "Artificial intelligence (AI) and machine learning (ML) have become increasingly popular in recent years, with many innovative applications across industries. However, the lack of trustless infrastructure for AI has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent.The challenge for this hackathon is to create a trustless infrastructure for AI that ensures secure and private AI applications, using zero-knowledge proofs (zkp) and zk-SNARKs (zero-knowledge succinct non-interactive arguments of knowledge) to create a secure and private AI network."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/bitget-blockchain4youth-u-30-hackathon/040df31icons_AIGC_enchanted_Web3.png",
+        "title": "AI marketplace",
+        "description": "As the use of artificial intelligence (AI) and machine learning (ML) continues to grow in popularity, it has become increasingly important to ensure secure and private AI applications. However, the lack of decentralized computation resources and a trustworthy marketplace for AI algorithms and data exchange has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/a812deaICONS_Connected_Products__Autonomous_Systems.png",
+        "title": "AI and/or Blockchain project (Open ended)",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2024-01-20T08:10:00Z",
+    "end_time": "2024-01-21T08:20:00Z",
+    "first_prize": 4400,
+    "second_prize": 3200,
+    "third_prize": 2010,
+    "category": "Upcoming Hackathon"
+  },
+
+  {
+    "title": "September Easy '23",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/sep-easy-23/images/c9758ba247-easy_Listing_copy.jpg",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/sep-easy-23/images/c997807247-easy_1350-300_copy.jpg",
+    "status": "Online",
+    "publisher": {
+      "name": "Heackearth",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/62/46/6246b153249f7b947bbf6baa98ca15c3.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "Easy is a series of HackerEarth’s beginner-level coding challenges that are hosted on the first weekend of every month. The purpose of this challenge is to help beginners hone their coding skills in the language of their choice. Easy is a rated contest and is open for everyone to participate."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/bitget-blockchain4youth-u-30-hackathon/fbbf487icons_ai.png",
+        "title": "Trustless infrastructure for AI",
+        "description": "Artificial intelligence (AI) and machine learning (ML) have become increasingly popular in recent years, with many innovative applications across industries. However, the lack of trustless infrastructure for AI has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent.The challenge for this hackathon is to create a trustless infrastructure for AI that ensures secure and private AI applications, using zero-knowledge proofs (zkp) and zk-SNARKs (zero-knowledge succinct non-interactive arguments of knowledge) to create a secure and private AI network."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/bitget-blockchain4youth-u-30-hackathon/040df31icons_AIGC_enchanted_Web3.png",
+        "title": "AI marketplace",
+        "description": "As the use of artificial intelligence (AI) and machine learning (ML) continues to grow in popularity, it has become increasingly important to ensure secure and private AI applications. However, the lack of decentralized computation resources and a trustworthy marketplace for AI algorithms and data exchange has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cyientifiq-global-innovation-league-global-hackathon-2023/a812deaICONS_Connected_Products__Autonomous_Systems.png",
+        "title": "AI and/or Blockchain project (Open ended)",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2024-01-20T08:10:00Z",
+    "end_time": "2024-01-21T08:20:00Z",
+    "first_prize": 4400,
+    "second_prize": 3200,
+    "third_prize": 2010,
+    "category": "Upcoming Hackathon"
+  },
+  {
+    "title": "Rakathon 2023",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/rakathon2023/images/1f231ddc31-listing.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/rakathon2023/images/c63b581631-rakathon-final-updated-banner.png",
+    "status": "Online",
+    "publisher": {
+      "name": "Rakuton",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/6a/de/6adecd6c3ca18e8443c7f29ca1c547a2.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "Rakathon, a 24-hour coding competition by Rakuten India is here again to spark creative thinking and redefine the possibilities of business innovation. Rakathon – a portmanteau of Rakuten and hackathon – echoes Rakuten’s commitment to give back to the world by fostering innovation and the spirit of entrepreneurship. Whether you are an experienced professional, a budding innovator, an aspiring engineer, or simply passionate about technology, Rakathon 2023 welcomes you to join us to reimagine the possibilities with Generative AI."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/rakathon2023/4622265theme-icon.png",
+        "title": "Business Innovation in Commerce and Fintech / through Rakuten Business",
+        "description": "Artificial intelligence (AI) and machine learning (ML) have become increasingly popular in recent years, with many innovative applications across industries. However, the lack of trustless infrastructure for AI has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent.The challenge for this hackathon is to create a trustless infrastructure for AI that ensures secure and private AI applications, using zero-knowledge proofs (zkp) and zk-SNARKs (zero-knowledge succinct non-interactive arguments of knowledge) to create a secure and private AI network."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/rakathon2023/59e634dtheme-icon.png",
+        "title": "Security and Privacy",
+        "description": "As the use of artificial intelligence (AI) and machine learning (ML) continues to grow in popularity, it has become increasingly important to ensure secure and private AI applications. However, the lack of decentralized computation resources and a trustworthy marketplace for AI algorithms and data exchange has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/rakathon2023/5f4f188theme-icon.png",
+        "title": "Innovation in Mobile and Telecom",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2024-01-20T08:10:00Z",
+    "end_time": "2024-01-21T08:20:00Z",
+    "first_prize": 4400,
+    "second_prize": 3200,
+    "third_prize": 2010,
+    "category": "Upcoming Hackathon"
+  },
+  {
+    "title": "DSA Coding Contest - September '23",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/dsa-coding-contest-september-23/images/2c5b1e5c4d-DSA_Listing_copy_3.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/dsa-coding-contest-september-23/images/2c84d2d84d-DSA_1350-300_copy_3.png",
+    "status": "Online",
+    "publisher": {
+      "name": "Heckearth",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/62/46/6246b153249f7b947bbf6baa98ca15c3.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "Instructions About Challenge Attention Hustlers!Technical interviews can be terrifying when you do not know who you are competing with, and where you stand. HackerEarth presents a one-of-a-kind, Data Structures and Algorithm coding contest where you can compete in a real-time interview environment and hone your skills."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/rakathon2023/4622265theme-icon.png",
+        "title": "Business Innovation in Commerce and Fintech / through Rakuten Business",
+        "description": "Artificial intelligence (AI) and machine learning (ML) have become increasingly popular in recent years, with many innovative applications across industries. However, the lack of trustless infrastructure for AI has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent.The challenge for this hackathon is to create a trustless infrastructure for AI that ensures secure and private AI applications, using zero-knowledge proofs (zkp) and zk-SNARKs (zero-knowledge succinct non-interactive arguments of knowledge) to create a secure and private AI network."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/rakathon2023/59e634dtheme-icon.png",
+        "title": "Security and Privacy",
+        "description": "As the use of artificial intelligence (AI) and machine learning (ML) continues to grow in popularity, it has become increasingly important to ensure secure and private AI applications. However, the lack of decentralized computation resources and a trustworthy marketplace for AI algorithms and data exchange has been a major challenge, with issues such as security breaches, data manipulation, and privacy concerns still being prevalent."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/rakathon2023/5f4f188theme-icon.png",
+        "title": "Innovation in Mobile and Telecom",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2023-09-20T08:10:00Z",
+    "end_time": "2023-10-21T08:20:00Z",
+    "first_prize": 500,
+    "second_prize": 200,
+    "third_prize": 100,
+    "category": "Running Hackathon"
+  },
+  {
+    "title": "Optimizing Patient Experiences",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/hacknosis-optimizing-patient-experiences/images/ab2d229019-Artboard_1-FINALS_1.jpg",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/hacknosis-optimizing-patient-experiences/images/ba98383a19-22942-hackathon_campaign-lp-banner-2700x600-finals_4.jpg",
+    "status": "Online",
+    "publisher": {
+      "name": "Opentext",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/21/e8/21e8509aae7dd4b058384a24afd1fb69.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "Gaps in healthcare still exist and the need for better solutions to bridge those gaps is critical. Today, more than half of the world’s population lives one to two hours away from a doctor. The pandemic taught us that telehealth can be a great option. It allows patients and doctors to maintain routine contact and, therefore, good health—but only if the right tools are available. The challenge faced by health providers is how to incorporate new technologies that enable doctors and patients to have real conversations, supported by a simple experience."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/hacknosis-optimizing-patient-experiences/df7ca34icons_Integration_of_healthcare.png",
+        "title": "Integration of healthcare and patient information for doctors",
+        "description": "As smart devices become more accessible to the public and with the rise of fitness and wellness apps available, patients are owning and tracking their own health data in ways that were not accessible to doctors before. Therefore, the need to create secure ways to share data with healthcare providers and connect to their health networks and systems is becoming increasingly important.Patients are collecting data on their eating habits, fitness regimes, and if they have smart medical devices (such as Continuous Glucose Monitoring devices), this data can be shared with their healthcare providers. Enabling patients to share this information with their doctors could facilitate fewer visits, customized treatment plans, and reduce the need for testing in some cases, while giving doctors a better picture to diagnose and customize treatment based on lifestyle."
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/hacknosis-optimizing-patient-experiences/e965254icons_Embedding_accessibility.png",
+        "title": "Embedding accessibility into healthcare solutions",
+        "description": "Approximately 15% of the global population lives with a disability. Accessibility issues are any barriers that make it difficult or impossible for disabled users to access, navigate, or engage with digital content. Web accessibility issues are only the tip of the spear when it comes to addressing digital accessibility requirements that can be extended and applied to all forms of digital content, including document optimization and images. The international standards set out by the Web Content Accessibility Guidelines (WCAG) and the American Disabilities Act (ADA) have identified common web accessibility issues and have created a list of standards that are classified under 4 key principles, the first of which apply to this challenge:"
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/hacknosis-optimizing-patient-experiences/f60cca9icons_Transforming_Information_capture.png",
+        "title": "Transforming Information capture",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2023-09-20T08:10:00Z",
+    "end_time": "2023-10-21T08:20:00Z",
+    "first_prize": 5010,
+    "second_prize": 210,
+    "third_prize": 140,
+    "category": "Running Hackathon"
+  },
+  {
+    "title": "Cardano Summit Hackathon",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/cardano-summit-hackathon-2/images/fafb6f8c37-cardano_summit_listing_1.png",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/cardano-summit-hackathon-2/images/464d81be37-hackathon_hackerearth_banner_v2.png",
+    "status": "Online",
+    "publisher": {
+      "name": "Cardano",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/61/41/61413382413aa7fe210925b9ec3a4bfc.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "In the run-up to the Summit, the first ever Cardano Summit Hackathon will challenge participants to develop tech-driven solutions for the theme of Transparency for Governance. The worldwide Hackathon will be held online and an expert jury will decide who takes home the main prize to bring their ideas to life, with the winner announced during the Gala Awards Dinner on day 2 of the Summit.."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cardano-summit-hackathon-2/ab3dda9icons_transperancy.png",
+        "title": "Cardano Summit Hackathon: Transparency for Governance",
+        "description": "ransparency will be a core component of the Age of Voltaire, the governance phase of the Cardano blockchain. This, however, will require accessible solutions, tools, and interfaces that anyone can easily use, even people unfamiliar with Cardano. Almost no such options exist yet.The Cardano Summit Hackathon aims to tackle this challenge. Participants should develop technology-driven solutions that promote transparency in governance, enabling individuals as well as all non-blockchain savvy organizations to access and understand governance actions, policies, and decision-making processes. "
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/hacknosis-optimizing-patient-experiences/e965254icons_Embedding_accessibility.png",
+        "title": "Embedding accessibility into healthcare solutions",
+        "description": "Approximately 15% of the global population lives with a disability. Accessibility issues are any barriers that make it difficult or impossible for disabled users to access, navigate, or engage with digital content. Web accessibility issues are only the tip of the spear when it comes to addressing digital accessibility requirements that can be extended and applied to all forms of digital content, including document optimization and images. The international standards set out by the Web Content Accessibility Guidelines (WCAG) and the American Disabilities Act (ADA) have identified common web accessibility issues and have created a list of standards that are classified under 4 key principles, the first of which apply to this challenge:"
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/hacknosis-optimizing-patient-experiences/f60cca9icons_Transforming_Information_capture.png",
+        "title": "Transforming Information capture",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2023-09-20T08:10:00Z",
+    "end_time": "2023-10-21T08:20:00Z",
+    "first_prize": 5010,
+    "second_prize": 210,
+    "third_prize": 140,
+    "category": "Running Hackathon"
+  },
+  {
+    "title": "Aug Easy '23",
+    "image": "https://media-fastly.hackerearth.com/media/hackathon/aug-easy-23/images/1d9c6fc231-august_easy_listing.jpg",
+    "banner": "https://media-fastly.hackerearth.com/media/hackathon/august-circuits-23/images/ee96c77e3d-circuits_1350-300_copy.jpg",
+    "status": "Online",
+    "publisher": {
+      "name": "Heckearth",
+      "logo": "https://he-s3.s3.amazonaws.com/media/cache/62/46/6246b153249f7b947bbf6baa98ca15c3.png"
+    },
+    "overview": {
+      "title": "Got a project about AI and/or Blockchain? Submit today to win your share of US$50,000 prize pool",
+      "description": "Easy is a series of HackerEarth’s beginner-level coding challenges that are hosted on the first weekend of every month. The purpose of this challenge is to help beginners hone their coding skills in the language of their choice. Easy is a rated contest and is open for everyone to participate."
+    },
+    "theme": [
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/cardano-summit-hackathon-2/ab3dda9icons_transperancy.png",
+        "title": "Cardano Summit Hackathon: Transparency for Governance",
+        "description": "ransparency will be a core component of the Age of Voltaire, the governance phase of the Cardano blockchain. This, however, will require accessible solutions, tools, and interfaces that anyone can easily use, even people unfamiliar with Cardano. Almost no such options exist yet.The Cardano Summit Hackathon aims to tackle this challenge. Participants should develop technology-driven solutions that promote transparency in governance, enabling individuals as well as all non-blockchain savvy organizations to access and understand governance actions, policies, and decision-making processes. "
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/hacknosis-optimizing-patient-experiences/e965254icons_Embedding_accessibility.png",
+        "title": "Embedding accessibility into healthcare solutions",
+        "description": "Approximately 15% of the global population lives with a disability. Accessibility issues are any barriers that make it difficult or impossible for disabled users to access, navigate, or engage with digital content. Web accessibility issues are only the tip of the spear when it comes to addressing digital accessibility requirements that can be extended and applied to all forms of digital content, including document optimization and images. The international standards set out by the Web Content Accessibility Guidelines (WCAG) and the American Disabilities Act (ADA) have identified common web accessibility issues and have created a list of standards that are classified under 4 key principles, the first of which apply to this challenge:"
+      },
+      {
+        "image": "https://he-s3.s3.amazonaws.com/media/sprint/hacknosis-optimizing-patient-experiences/f60cca9icons_Transforming_Information_capture.png",
+        "title": "Transforming Information capture",
+        "description": "As the world of technology is constantly evolving, and we now find ourselves at the intersection of artificial intelligence (AI) and blockchain, we invite you to submit your projects that harness the power of AI and/or blockchain.Your project must be based around AI and/or blockchain to qualify."
+      }
+    ],
+    "start_time": "2023-09-20T08:10:00Z",
+    "end_time": "2023-10-21T08:20:00Z",
+    "first_prize": 5010,
+    "second_prize": 210,
+    "third_prize": 140,
     "category": "Running Hackathon"
   }
 ]

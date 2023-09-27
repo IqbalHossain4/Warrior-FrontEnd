@@ -10,7 +10,7 @@ import {
 import Swal from "sweetalert2";
 import SocialLogin from "../Share/SocialLogin/SocialLogin";
 import Lottie from "lottie-react";
-import loginLottie from '../../assets/Lottie/animation_lmi33i3d.json'
+import loginLottie from "../../assets/Lottie/animation_lmi33i3d.json";
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
@@ -52,7 +52,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="hero min-h-screen pt-12 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">
+      <div className="hero min-h-screen pt-12 bg-color ">
         <div className="hero-content flex-col md:flex-row">
           <div className="text-center lg:text-left">
             {isParticipant ? (
@@ -64,13 +64,13 @@ const Login = () => {
                 Login as <span className="text-red-500">Mentor</span>
               </h1>
             )}
-           <Lottie animationData={loginLottie} loop={true} />
+            <Lottie animationData={loginLottie} loop={true} />
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-slate-900 text-white">
             <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text text-white">Email</span>
                 </label>
                 <input
                   type="email"
@@ -82,7 +82,7 @@ const Login = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Password</span>
+                  <span className="label-text text-white">Password</span>
                 </label>
                 <input
                   type="password"
@@ -92,7 +92,10 @@ const Login = () => {
                   {...register("password", { required: true })}
                 />
                 <label className="label">
-                  <a href="#" className="label-text-alt link link-hover">
+                  <a
+                    href="#"
+                    className="label-text-alt link link-hover text-white"
+                  >
                     Forgot password?
                   </a>
                 </label>

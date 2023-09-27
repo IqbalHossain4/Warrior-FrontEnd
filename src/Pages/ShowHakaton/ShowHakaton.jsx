@@ -8,8 +8,8 @@ import { AiOutlineDesktop } from "react-icons/ai";
 const ShowHakaton = () => {
   // Assuming that useLoaderData returns an object with a 'title' property
   const {
+    _id,
     title,
-    description,
     banner,
     publisher,
     start_time,
@@ -17,6 +17,8 @@ const ShowHakaton = () => {
     first_prize,
     second_prize,
     third_prize,
+    overview,
+    theme,
     category,
   } = useLoaderData();
 
@@ -44,7 +46,7 @@ const ShowHakaton = () => {
               <div className="w-[120px] h-[120px] bg-white flex items-center justify-center p-5">
                 <img src={publisher.logo} alt="" />
               </div>
-              <h3 className="mb-8 text-3xl font-[600]">{publisher.name}</h3>
+              <h3 className="mb-8 text-3xl font-[600]">{title}</h3>
             </div>
             <div className="absolute left-[7%] bottom-2">
               <p className="flex items-center gap-6 text-[12px] text-gray-400">
@@ -77,18 +79,52 @@ const ShowHakaton = () => {
               <p className="text-xs text-gray-400  mt-1">ENDS ON:</p>
               <h3 className=" text-lg font-[400]">{end_time.split("T")[0]}</h3>
             </div>
+            <div className="">
+              <Link to={`/submitProject/${_id}`}>
+                <button className="btn btn-warning text-white">
+                  Submit Project
+                </button>
+              </Link>
+              <br />
+              <button className="mt-4 underline text-green-500">
+                V i e w T e a m
+              </button>
+            </div>
           </div>
         </div>
       </div>
       <div className="containers">
-        <div className="flex items-center gap-2 mt-8">
-          <p>OVERVIEW</p>
-          <p className="w-full h-[2px] bg-white"></p>
+        <div>
+          <div className="mt-16 flex items-center gap-2">
+            <p>OVERVIEW</p>
+            <p className="w-full h-[2px] bg-white"></p>
+          </div>
+          <h1 className=" mt-4 text-md">{overview.title}</h1>
+          <p className="text-sm text-gray-500 mt-4">{overview.description}</p>
         </div>
-        <h1 className=" mt-10 text-4xl">{title}</h1>
-        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="2000">
-          <p className="text-xs mt-2">{description}</p>
 
+        <div className="my-16">
+          <div className="flex items-center gap-2 mt-8">
+            <p>Theme</p>
+            <p className="w-full h-[2px] bg-white"></p>
+          </div>
+          <div>
+            {theme.map((themes, index) => (
+              <div key={index} className="mt-6 flex items-start gap-3">
+                <img src={themes.image} className="me-2" alt="" />
+
+                <div>
+                  <h3 className="mb-4 text-md">{themes.title}</h3>
+                  <p className="text-sm text-gray-500 mt-4">
+                    {themes.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-duration="2000">
           <div className="flex items-center  gap-2 mt-8 text-xs">
             <p>PRIZES</p>
             <p className="w-full h-[2px] bg-white"></p>

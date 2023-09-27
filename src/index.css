@@ -28,3 +28,16 @@ body {
   );
   border: none;
 }
+
+.bg-color {
+  background: radial-gradient(
+    circle,
+    rgba(45, 19, 53, 1) 0%,
+    rgba(0, 6, 26, 1) 71%
+  );
+}
+
+.inset-shadow {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

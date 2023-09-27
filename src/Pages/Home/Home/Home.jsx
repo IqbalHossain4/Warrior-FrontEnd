@@ -1,13 +1,16 @@
 import React from "react";
 import CategorySlider from "../CategorySlider/CategorySlider";
 import Banner from "../Banner/Banner";
+import "./Home.css";
 import Hakaton from "../Hakaton/Hakaton";
 
 const Home = () => {
   return (
-    <div className="gradient-background">
+    <div>
       <Banner></Banner>
-      <CategorySlider />
+      <div className="gradient-background">
+        <CategorySlider />
+      </div>
       <Hakaton></Hakaton>
     </div>
   );
