@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
-import "./AllHakaton.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
 import { FaUserAlt } from "react-icons/fa";
-
-const AllHakaton = ({ place }) => {
-  const { title, image, description, start_time, end_time, _id } = place;
+import { Link } from "react-router-dom";
+import Aos from "aos";
+const Hackathon = ({ hackathon }) => {
+  const { title, image, description, start_time, end_time, _id } = hackathon;
 
   useEffect(() => {
     Aos.init({
@@ -15,7 +12,6 @@ const AllHakaton = ({ place }) => {
       duration: 600,
     });
   }, []);
-  const endTime = end_time.split("T")[1];
   return (
     <div>
       <div
@@ -27,7 +23,7 @@ const AllHakaton = ({ place }) => {
         <div className="image">
           <div id="zoom-In">
             <figure>
-              <img className="md:w-full h-[200px] w-80" src={image} alt="" />
+              <img className="md:w-full h-[200px]  w-80" src={image} alt="" />
             </figure>
           </div>
         </div>
@@ -44,22 +40,9 @@ const AllHakaton = ({ place }) => {
                 <span> 1250</span>
               </p>
             </div>
-            <p className="text-xs text-gray-400 mt-3">ENDS IN</p>
-            <p className="mb-3 text-md flex items-center justify-center">
-              <span>
-                {endTime ? endTime.split(":")[0] : ""} :
-                <p className="text-xs text-gray-400 mt-1 mr-2">Hour</p>
-              </span>
-
-              <span>
-                {endTime ? endTime.split(":")[1] : ""} :
-                <p className="text-xs text-gray-400 mt-1 mr-2">Minute</p>
-              </span>
-
-              <span>
-                {endTime ? endTime.split(":")[2] : ""}
-                <p className="text-xs text-gray-400  mt-1">Seconds</p>
-              </span>
+            <p className="text-xs text-gray-400 mt-3">START IN</p>
+            <p className="mt-4 mb-6 text-xs flex items-center justify-center tracking-[3px]">
+              {start_time}
             </p>
 
             <Link to={`/hackathon/${_id}`}>
@@ -72,4 +55,4 @@ const AllHakaton = ({ place }) => {
   );
 };
 
-export default AllHakaton;
+export default Hackathon;

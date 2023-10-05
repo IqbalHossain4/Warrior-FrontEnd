@@ -6,7 +6,7 @@ const useHakaton = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://warrior-beta.vercel.app/hackathon")
+    fetch("http://localhost:5000/hackathons")
       .then((res) => res.json())
       .then((data) => {
         setHakatons(data);

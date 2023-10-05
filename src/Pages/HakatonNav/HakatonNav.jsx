@@ -11,7 +11,7 @@ const HakatonNav = () => {
   const lastPageIndex = currentPage * postsPerPage;
   const firstPostIndex = lastPageIndex - postsPerPage;
   const currentPosts = hakatons.slice(firstPostIndex, lastPageIndex);
-
+  console.log(hakatons);
   return (
     <div className="containers">
       <h2 className="my-16 text-white text-center md:text-xl text-md font-[700]">

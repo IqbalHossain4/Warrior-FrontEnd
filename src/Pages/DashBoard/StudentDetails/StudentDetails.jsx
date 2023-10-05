@@ -7,7 +7,7 @@ const StudentDetails = () => {
   console.log(students);
   const [reload, setReload] = useState(false);
   useEffect(() => {
-    axios.get("https://warrior-beta.vercel.app/user").then((response) => {
+    axios.get("http://localhost:5000/user").then((response) => {
       setStudents(response.data);
     });
   }, [reload]);
@@ -27,15 +27,13 @@ const StudentDetails = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        axios
-          .delete(`https://warrior-beta.vercel.app/users/${id}`)
-          .then((response) => {
-            // Handle the response data here
-            if (response.data.deletedCount > 0) {
-              Swal.fire("Deleted!", "User has been deleted.", "success");
-              setReload(!reload)
-            }
-          });
+        axios.delete(`http://localhost:5000/users/${id}`).then((response) => {
+          // Handle the response data here
+          if (response.data.deletedCount > 0) {
+            Swal.fire("Deleted!", "User has been deleted.", "success");
+            setReload(!reload);
+          }
+        });
       }
     });
   };
@@ -45,39 +43,41 @@ const StudentDetails = () => {
       {isStudent.length === 0 ? (
         <p className="text-4xl font-bold">Currently no students available</p>
       ) : (
-      <>
-      <h3 className="text-center font-semibold text-4xl my-4">Student Details</h3>
-        <div className="overflow-x-auto">
-          <table className="table">
-            {/* head */}
-            <thead>
-              <tr>
-                <th></th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              {/* row 1 */}
-              {isStudent.map((student, i) => (
-                <tr key={student._id}>
-                  <th>{i + 1}</th>
-                  <td>{student?.name}</td>
-                  <td>{student?.email}</td>
-                  <td>
-                    <button
-                      className="btn"
-                      onClick={() => handleDeleteStudent(student?._id)}
-                    >
-                      Delete
-                    </button>
-                  </td>
+        <>
+          <h3 className="text-center font-semibold text-4xl my-4">
+            Student Details
+          </h3>
+          <div className="overflow-x-auto">
+            <table className="table">
+              {/* head */}
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Action</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {/* row 1 */}
+                {isStudent.map((student, i) => (
+                  <tr key={student._id}>
+                    <th>{i + 1}</th>
+                    <td>{student?.name}</td>
+                    <td>{student?.email}</td>
+                    <td>
+                      <button
+                        className="btn"
+                        onClick={() => handleDeleteStudent(student?._id)}
+                      >
+                        Delete
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </>
       )}
     </div>

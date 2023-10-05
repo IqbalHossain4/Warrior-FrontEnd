@@ -20,6 +20,7 @@ const ShowHakaton = () => {
     overview,
     theme,
     category,
+    location,
   } = useLoaderData();
 
   useEffect(() => {
@@ -46,7 +47,9 @@ const ShowHakaton = () => {
               <div className="w-[120px] h-[120px] bg-white flex items-center justify-center p-5">
                 <img src={publisher.logo} alt="" />
               </div>
-              <h3 className="mb-8 text-3xl font-[600]">{title}</h3>
+              <h3 className="mb-8  text-xl lg:text-3xl md:text-2xl font-[600]">
+                {title}
+              </h3>
             </div>
             <div className="absolute left-[7%] bottom-2">
               <p className="flex items-center gap-6 text-[12px] text-gray-400">
@@ -61,23 +64,25 @@ const ShowHakaton = () => {
       </div>
       <div className="bg-[#060E26] py-12 border border-[#84823A]  border-x-0 mt-24">
         <div className="containers">
-          <div className="flex items-center justify-between text-center">
-            <div>
+          <div className="md:flex items-center justify-between text-center">
+            <div className="md:mb-0 mb-6">
               <p className="text-xs text-gray-400  mt-1">START ON:</p>
-              <h3 className=" text-lg font-[400]">
-                {start_time.split("T")[0]}
+              <h3 className=" text-xs mt-2 font-[400] tracking-[3px]">
+                {start_time}
               </h3>
             </div>
-            <div className="">
-              <span className="flex items-center gap-2 ">
-                <AiOutlineDesktop />
-                <span className="text-xs text-gray-400">HACKATHON</span>
-              </span>
-              <p>Online</p>
-            </div>
             <div>
+              <div className="md:flex items-center  gap-2 ">
+                <AiOutlineDesktop className="hidden md:block" />
+                <p className="text-xs text-gray-400">HACKATHON</p>
+              </div>
+              <p className="mt-2">{location}</p>
+            </div>
+            <div className="md:my-0 my-6">
               <p className="text-xs text-gray-400  mt-1">ENDS ON:</p>
-              <h3 className=" text-lg font-[400]">{end_time.split("T")[0]}</h3>
+              <h3 className=" text-xs mt-2 font-[400] tracking-[3px]">
+                {end_time}
+              </h3>
             </div>
             <div className="">
               <Link to={`/submitProject/${_id}`}>

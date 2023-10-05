@@ -36,8 +36,8 @@ const ProjectSubmit = () => {
   };
   return (
     <div className="my-24">
-      <div className="containers overflow-hidden mx-auto p-6 rounded-lg shadow-lg inset-shadow bg-white">
-        <h2 className="text-2xl font-bold text-center mb-4">
+      <div className="containers overflow-hidden mx-auto p-6 rounded-lg shadow-lg inset-shadow bg-[#060E26] ">
+        <h2 className="text-2xl text-white font-bold text-center mb-16">
           Submit Your Project
         </h2>
         <div className="relative z-10 md:flex items-start justify-between gap-5 ">
@@ -56,7 +56,7 @@ const ProjectSubmit = () => {
             <div className="my-8">
               <select
                 id="selectOption"
-                className="w-full px-4 py-2 border border-x-0 border-t-0 outline-none rounded-lg  focus:border-blue-300 bg-black text-white"
+                className="w-full px-4 py-2 border border-x-0 border-t-0 outline-none rounded-lg  focus:border-blue-300 bg-black text-gray-500"
                 value={selectedOption}
                 onChange={(e) => setSelectedOption(e.target.value)}
                 required
@@ -115,7 +115,7 @@ const ProjectSubmit = () => {
             <div className="mb-8 ">
               <label
                 htmlFor="file"
-                className="block text-gray-700 font-semibold"
+                className="block text-gray-500 font-semibold"
               >
                 Upload File
               </label>
@@ -136,7 +136,7 @@ const ProjectSubmit = () => {
                 checked={isChecked}
                 onChange={() => setIsChecked(!isChecked)} // Toggle the checkbox status
               />
-              <p className="text-xs">
+              <p className="text-xs text-gray-500">
                 I accept that no teammates (including the team leader) can be
                 removed from this team after the submission has been made.
               </p>
@@ -145,8 +145,10 @@ const ProjectSubmit = () => {
               <button
                 type="submit"
                 className={`${
-                  isChecked ? "bg-black " : "bg-gray-300 cursor-not-allowed"
-                } text-white font-semibold py-2 px-6 rounded-full focus:outline-none focus:ring focus:ring-blue-300`}
+                  isChecked
+                    ? "btn btn-warning "
+                    : "bg-gray-300 cursor-not-allowed"
+                } text-white font-semibold py-3 px-6 rounded-full focus:outline-none focus:ring focus:ring-blue-300`}
                 disabled={!isChecked}
               >
                 Submit
@@ -158,19 +160,23 @@ const ProjectSubmit = () => {
               Mandatory information
             </h3>
             <ol>
-              <li className="mb-2 text-md text-white font-[400]">
+              <li className="mb-2 text-md text-gray-500 font-[400]">
                 Project title
               </li>
-              <li className="mb-2 text-md text-white font-[400]">Theme</li>
-              <li className="mb-2 text-md text-white font-[400]">
+              <li className="mb-2 text-md text-gray-500 font-[400]">Theme</li>
+              <li className="mb-2 text-md text-gray-500 font-[400]">
                 Presentation
               </li>
-              <li className="mb-2 text-md text-white font-[400]">Built in</li>
-              <li className="mb-2 text-md text-white font-[400]">
+              <li className="mb-2 text-md text-gray-500 font-[400]">
+                Built in
+              </li>
+              <li className="mb-2 text-md text-gray-500 font-[400]">
                 Repository link
               </li>
-              <li className="mb-2 text-md text-white font-[400]">Demo link</li>
-              <li className="mb-2 text-md text-white font-[400]">
+              <li className="mb-2 text-md text-gray-500 font-[400]">
+                Demo link
+              </li>
+              <li className="mb-2 text-md text-gray-500 font-[400]">
                 Upload File
               </li>
             </ol>

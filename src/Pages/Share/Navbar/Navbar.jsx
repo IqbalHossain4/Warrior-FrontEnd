@@ -1,45 +1,55 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider/AuthProvider";
-import useCart from "../../../hooks/useCart";
-import axios from "axios";
+import useAdmin from "../../../hooks/useAdmin";
+import useMentor from "../../../hooks/useMentor";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
-
+  const [isAdmin] = useAdmin();
+  const [isMentor] = useMentor();
+  //make nav Active
+  const Active = ({ to, children }) => {
+    return (
+      <NavLink
+        to={to}
+        className={({ isActive }) =>
+          isActive ? "activeNav text-[#F6EC4D]" : "navItem"
+        }
+      >
+        {children}
+      </NavLink>
+    );
+  };
   const navOptions = (
     <>
-      <Link>
-        <li>
-          <a className="text-xl hover:text-white">Home</a>
-        </li>
-      </Link>
-      <Link to="hakaton">
-        <li>
-          <a className="text-xl hover:text-white">Hakatons</a>
-        </li>
-      </Link>
-      <Link to="/projects">
-        <li>
-          <a className="text-xl hover:text-white">Projects</a>
-        </li>
-      </Link>
-      <Link to="/exercise">
-        <li>
-          <a className="text-xl hover:text-white">Exercise</a>
-        </li>
-      </Link>
-      <Link>
-        <li>
-          <a className="text-xl hover:text-white">About Us</a>
-        </li>
-      </Link>
+      <li>
+        <Active to="/">
+          <p className="text-md font-semibold ">Home</p>
+        </Active>
+      </li>
+      <li>
+        <Active to="hakaton">
+          <p className="text-md font-semibold ">Hackathon</p>
+        </Active>
+      </li>
+      <li>
+        <Active to="/projects">
+          <p className="text-md font-semibold ">Projects</p>
+        </Active>
+      </li>
+      <li>
+        <Active to="/exercise">
+          <p className="text-md font-semibold ">Exercise</p>
+        </Active>
+      </li>
+      <li>
+        <Active to="/about">
+          <p className="text-md font-semibold ">About Us</p>
+        </Active>
+      </li>
     </>
   );
-
-  axios.get("https://warrior-beta.vercel.app/user").then((res) => {
-    console.log(res.data);
-  });
 
   return (
     <div className="sticky top-0 z-50">
@@ -69,18 +79,13 @@ const Navbar = () => {
               {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Warrior</a>
+          <a className="btn btn-ghost normal-case text-md">Warrior</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navOptions}</ul>
+          <ul className="flex items-center gap-4">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <div className="flex md:mx-5 items-center">
-            {user && (
-              <Link to={"/dashboard"}>
-                <button className="btn mx-5">Dashboard</button>
-              </Link>
-            )}
+          <div>
             {user && (
               <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -92,6 +97,20 @@ const Navbar = () => {
                   tabIndex={0}
                   className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-2xl bg-white text-black rounded-box w-52"
                 >
+                  {!isAdmin && !isMentor ? (
+                    <li>
+                      <Link to="profile">
+                        <button>Profile</button>
+                      </Link>
+                    </li>
+                  ) : (
+                    <li>
+                      <Link to={"/dashboard"}>
+                        <button>Dashboard</button>
+                      </Link>
+                    </li>
+                  )}
+
                   <li>
                     <button
                       className="green-btn shadow-2xl"
@@ -105,28 +124,11 @@ const Navbar = () => {
             )}
             {!user && (
               <div className="dropdown dropdown-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                  Login
-                </label>
-                <ul
-                  tabIndex={0}
-                  className="menu menu-sm dropdown-content mt- z-[1] p-2 shadow-2xl bg-white text-black rounded-box w-52"
-                >
-                  <li>
-                    <Link to="/login/participant">
-                      <button className="green-btn w-full mx-2">
-                        Login as Participant
-                      </button>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/login/mentor">
-                      <button className="green-btn w-full mx-2">
-                        Login as Mentor
-                      </button>
-                    </Link>
-                  </li>
-                </ul>
+                <Link to="/login">
+                  <button className="btn btn-ghost btn-circle avatar">
+                    Login
+                  </button>
+                </Link>
               </div>
             )}
           </div>

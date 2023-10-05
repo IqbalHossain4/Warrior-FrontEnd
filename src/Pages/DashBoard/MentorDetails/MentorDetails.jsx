@@ -6,7 +6,7 @@ const MentorDetails = () => {
   const [mentors, setMentor] = useState([]);
   const [reload, setReload] = useState(false);
   useEffect(() => {
-    axios.get("https://warrior-beta.vercel.app/user").then((response) => {
+    axios.get("http://localhost:5000/user").then((response) => {
       setMentor(response.data);
     });
   }, [reload]);
@@ -24,15 +24,13 @@ const MentorDetails = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        axios
-          .delete(`https://warrior-beta.vercel.app/users/${id}`)
-          .then((response) => {
-            // Handle the response data here
-            if (response.data.deletedCount > 0) {
-              Swal.fire("Deleted!", "User has been deleted.", "success");
-              setReload(!reload);
-            }
-          });
+        axios.delete(`http://localhost:5000/users/${id}`).then((response) => {
+          // Handle the response data here
+          if (response.data.deletedCount > 0) {
+            Swal.fire("Deleted!", "User has been deleted.", "success");
+            setReload(!reload);
+          }
+        });
       }
     });
   };

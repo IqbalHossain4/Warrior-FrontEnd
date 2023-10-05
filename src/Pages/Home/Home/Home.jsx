@@ -2,16 +2,20 @@ import React from "react";
 import CategorySlider from "../CategorySlider/CategorySlider";
 import Banner from "../Banner/Banner";
 import "./Home.css";
-import Hakaton from "../Hakaton/Hakaton";
+import Hackathons from "../Hackathons/Hackathons";
+import Organizer from "../Organizer/Organizer";
+import OurPrideService from "../OurPrideService/OurPrideService";
 
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
+      <Banner />
       <div className="gradient-background">
         <CategorySlider />
       </div>
-      <Hakaton></Hakaton>
+      <Hackathons />
+      <Organizer />
+      <OurPrideService />
     </div>
   );
 };

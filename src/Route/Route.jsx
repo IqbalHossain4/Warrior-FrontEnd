@@ -15,6 +15,11 @@ import CodeCompiler from "../Pages/Exercise/CodeCompiler";
 import HakatonNav from "../Pages/HakatonNav/HakatonNav";
 import Project from "../Pages/Project/Project";
 import ProjectSubmit from "../Pages/ProjectSubmit/ProjectSubmit";
+import PriveteAdmine from "./PriveteAdmine";
+import Mentor from "../Pages/DashBoard/Mentor";
+import PriveteMentor from "./PriveteMentor";
+import Profile from "../Pages/Profile/Profile";
+import PriveteRoutes from "./PriveteRoutes";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -39,32 +44,32 @@ export const router = createBrowserRouter([
       },
 
       {
-        path: "/login/participant",
+        path: "/login",
         element: <Login />,
       },
       {
-        path: "/login/mentor",
-        element: <Login />,
-      },
-      {
-        path: "/signUp/participant",
-        element: <SignUp />,
-      },
-      {
-        path: "/signUp/mentor",
+        path: "/signUp",
         element: <SignUp />,
       },
       {
         path: "hackathon/:id",
         element: <ShowHakaton />,
         loader: ({ params }) =>
-          fetch(`https://warrior-beta.vercel.app/hackathon/${params.id}`),
+          fetch(`http://localhost:5000/hackathon/${params.id}`),
       },
       {
         path: "submitProject/:id",
         element: <ProjectSubmit />,
         loader: ({ params }) =>
-          fetch(`https://warrior-beta.vercel.app/hackathon/${params.id}`),
+          fetch(`http://localhost:5000/hackathon/${params.id}`),
+      },
+      {
+        path: "/profile",
+        element: (
+          <PriveteRoutes>
+            <Profile />
+          </PriveteRoutes>
+        ),
       },
     ],
   },
@@ -73,7 +78,7 @@ export const router = createBrowserRouter([
     element: <DashboardLayout />,
     children: [
       {
-        path: "/dashboard",
+        path: "/dashboard/admin",
         element: <Dashboard />,
       },
       {
